@@ -1,22 +1,18 @@
-## FourMeme Trading Toolkit (BNB Chain)
+## FourMeme(four.meme) Bundler & Volume bot (BNB Chain)
 
-A modular, CLI-driven trading toolkit tailored for the Four.meme ecosystem on BNB Chain. It includes specialized modules for sniping new launches, mirroring wallets, batching routes, and simulating/measuring volume — all powered directly on-chain with no third‑party market data services.
+FourMeme(four.meme) Bundler & Volume bot is a modular, CLI-driven trading toolkit tailored for the Four.meme ecosystem on BNB Chain. It includes specialized modules for mirroring wallets, batching routes, and simulating/measuring volume — all powered directly on-chain with no third‑party market data services.
+
+## Contact
+
+If you have any question or need help, contact here: [Telegram](https://t.me/shiny0103) | [Twitter](https://x.com/0xTan1319)
 
 ## Modules at a glance
-- **Sniper**: Rapid buys on fresh listings with tunable slippage and deadlines.
-- **Copy‑Trader**: Mirror specific wallets with percentage sizing, per‑trade caps, and de‑duplication.
 - **Bundler**: Execute predefined swap routes (e.g., `WBNB → TOKEN`) with timing controls; designed to extend toward multicalls.
 - **Volume Bot**: Programmatic buy/sell loops at a set cadence for liquidity/organic activity testing.
 - **Notifications**: Optional Telegram alerts for major lifecycle events.
 - **Risk Controls**: Allow/deny lists, max spend ceilings, and basic MEV‑aware settings.
 
 ## How it works
-
-### Sniper flow
-- Load targets from config → query router for expected out → apply configured slippage → perform `WBNB → TOKEN` swap → emit tx hash/receipt → optionally notify via Telegram.
-
-### Copy‑Trader flow
-- Subscribe to pending mempool transactions → filter by leader wallets → detect router swap intents → mirror with your position sizing and caps → optionally notify.
 
 ### Bundler flow
 - Read a sequence of routes from config → execute each respecting slippage/deadline settings → suitable base for multicall-style extensions.
@@ -73,9 +69,6 @@ Tip: All commands accept standard Node/CLI flags and module‑specific options (
 - Maintain deny lists and confirm token/router addresses before enabling live trades.
 - For fast markets, sniper slippage of 3–8% (300–800 bips) is common; test first.
 - For copy‑trading, set both per‑trade caps and a daily max exposure.
-
-## Support
-- Telegram: `t.me/@lorine93s`
 
 ## Security best practices
 - Never commit secrets or private keys.
