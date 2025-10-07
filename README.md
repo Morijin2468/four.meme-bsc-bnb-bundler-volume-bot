@@ -4,7 +4,7 @@ FourMeme(four.meme) Bundler & Volume bot is a modular, CLI-driven trading toolki
 
 ## Contact
 
-If you have any question or need help, contact here: [Telegram](https://t.me/shiny0103) | [Twitter](https://x.com/0xTan1319)
+If you have any question or need help, contact here: [Telegram](https://t.me/satscorder) | [Twitter](https://x.com/satcorder33)
 
 ## Modules at a glance
 - **Bundler**: Execute predefined swap routes (e.g., `WBNB → TOKEN`) with timing controls; designed to extend toward multicalls.
