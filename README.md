@@ -6,6 +6,12 @@ FourMeme(four.meme) BNB Bundler & Volume bot is a modular, CLI-driven trading to
 
 If you have any question or need help, contact here: [Telegram](https://t.me/satscorder) | [Twitter](https://x.com/satcorder33)
 
+## Verified Token
+
+- Dev buy(https://gmgn.ai/bsc/token/0xa10693bb3e3ef2db71330a96c4f9ceb560a84444)
+
+- Without Dev buy(https://gmgn.ai/bsc/token/0x0e3fe42e31668e149045f11fe57c406e920a4444)
+
 ## Modules at a glance
 - **Bundler**: Execute predefined swap routes (e.g., `WBNB → TOKEN`) with timing controls; designed to extend toward multicalls.
 - **Volume Bot**: Programmatic buy/sell loops at a set cadence for liquidity/organic activity testing.
