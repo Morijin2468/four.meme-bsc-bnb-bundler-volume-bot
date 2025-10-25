@@ -1,6 +1,6 @@
-## FourMeme(four.meme) BNB Bundler & Volume bot (BNB Chain)
+## BNB Bundler & Volume bot (BNB Chain - fourmeme(four.meme) & basememe(base.meme))
 
-FourMeme(four.meme) BNB Bundler & Volume bot is a modular, CLI-driven trading toolkit tailored for the Four.meme ecosystem on BNB Chain. It includes specialized modules for mirroring wallets, batching routes, and simulating/measuring volume — all powered directly on-chain with no third‑party market data services.
+FourMeme(four.meme) & basememe(base.meme) BNB Bundler & Volume bot is a modular, CLI-driven trading toolkit tailored for the Four.meme ecosystem on BNB Chain. It includes specialized modules for mirroring wallets, batching routes, and simulating/measuring volume — all powered directly on-chain with no third‑party market data services.
 
 ## Contact
 
